@@ -15,7 +15,7 @@
     padding-left:2rem;
     margin-top: 1em
 }
-.navbar{
+.navbar, .nav-footer{
     background-color: #485769;
  
 }
@@ -67,12 +67,88 @@ section{
     margin: 0.5em;
 
 }
-.img_text h4{
-    font-size: 1.8em;
+.img_text h4, .main-img h4{
+    font-size: 2em;
+    font-weight: 500;
     
 }
-.img_text p{
+.img_text p, .main-img p{
     font-size: 1.5em;
-    color:rgb(4, 125, 144);
+    color:rgb(3, 135, 156);
     font-weight: bold;
     }
+
+.immagine1{
+    background-image: url(../images/img_1.jpg);
+    
+}
+.immagine2{
+    background-image: url(../images/img_2.jpg);
+}
+.immagine3{
+    background-image: url(../images/img_3.jpg);
+}
+.immagine4{
+    background-image: url(../images/img_4.jpg);
+}
+.immagine1, .immagine2, .immagine3, .immagine4{
+    background-position: center;
+    background-size: cover;
+    height: 53vh;
+    width: 20vw;
+    display: inline-block;
+    border-radius: 2em;
+    margin:1em 2em 2em 2em;
+    padding: 10em;
+    background-repeat: no-repeat;
+    box-shadow: 4px 6px 10px #d9d8d8;
+}
+.total-img{
+    margin: 0 auto;
+}
+.main-img1{
+    background-image: url(../images/img_9.png);
+}
+.main-img2{
+    background-image: url(../images/img_10.png);
+}
+.main-img1, .main-img2{
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    height: 65vh;
+}
+.main-img h4, .main-img p{
+    display: inline-block;
+    margin-top: 0.3em;
+}
+.main-img h4{
+ margin-left:35%;
+ margin-right: 1.2em;
+}
+.main-img{
+    margin-top: 2.5em;
+}
+.nav-footer{
+height:8vh;
+width: 100%;
+}
+.nav-footer p{
+text-align: center;
+font-size:1.8em;
+padding-top: 0.8em;
+}
+ .nav-footer a {
+    color: white;
+   
+}
+.logo-footer{
+background-color:#1a2b3f ;
+height: 30vh;
+
+}
+.logo-footer img{
+    margin-left: 44%;
+    width: 25vh;
+    margin-top: 6em;
+}
