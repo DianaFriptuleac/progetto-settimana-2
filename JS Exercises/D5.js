@@ -99,7 +99,7 @@ console.log (cars);*/
 */
 console.log('*****Esercizio7*****');
 const justTrims = [];
-cars.trims === justTrims[0];
+justTrims = cars.trims[0] 
 console.log(justTrims);
 
 /* ESERCIZIO 8
@@ -108,7 +108,8 @@ console.log(justTrims);
 */
 console.log('*****Esercizio8*****');
 
-if(cars.color[i].charAt (0) === 'b'){
+
+if(cars.color[i].charAt(0) === 'b'){
   console.log('Fizz');
 }else {
   console.log('Buzz');
@@ -121,6 +122,11 @@ if(cars.color[i].charAt (0) === 'b'){
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+
+while(numericArray  < 35 ){
+console.log(numericArray)
+numericArray ++;
+ }
 
 
 /* ESERCIZIO 10
